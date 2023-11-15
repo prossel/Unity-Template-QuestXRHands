@@ -4,13 +4,21 @@ using UnityEngine;
 
 public class DemoBomb : MonoBehaviour
 {
+    // tick sound
+    public AudioClip tickSound;
+    public AudioClip explosionSound;
+
+    // audio source
+    private AudioSource audioSource;
+
     // rotation speed
     public float rotationSpeed = 10.0f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
+        InvokeRepeating("PlayTickSound", 1.0f, 1.0f);
     }
 
     // Update is called once per frame
@@ -18,7 +26,7 @@ public class DemoBomb : MonoBehaviour
     {
         gameObject.transform.position += new Vector3(0, 0, 1) * Time.deltaTime;
         gameObject.transform.Rotate(new Vector3(0, rotationSpeed, 0) * Time.deltaTime);
-        
+
     }
 
     // detect collision and dump destroy the collided object
@@ -26,6 +34,18 @@ public class DemoBomb : MonoBehaviour
     {
         Debug.Log("Collision detected");
         Destroy(collision.gameObject);
+        PlayExplosionSound();
     }
 
+    // Play tick sound
+    void PlayTickSound()
+    {
+        audioSource.PlayOneShot(tickSound);
+    }
+
+    // Play explosion sound
+    void PlayExplosionSound()
+    {
+        audioSource.PlayOneShot(explosionSound);
+    }
 }
