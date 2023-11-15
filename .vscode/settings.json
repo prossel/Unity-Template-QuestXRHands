@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "TemplateQuestXRHands21.sln"
+    "dotnet.defaultSolution": "Unity-Template-QuestXRHands21.sln"
 }
