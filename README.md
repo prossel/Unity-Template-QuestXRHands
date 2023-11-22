@@ -19,11 +19,11 @@ A quickstart Unity 2021 project for Oculus Quest uging XR Interaction toolkit an
 
 * From Unity > Window > Package Manager
 * in Packages: In Project
+* Select XR Hands, samples and import:
+  * HandVisualizer
 * Select XR Interaction Toolkit, samples and import:
   * Starter Assets
   * Hands Interaction Demo
-* Select XR Hands, samples and import:
-  * HandVisualizer
 
 ### Run the demo
 
