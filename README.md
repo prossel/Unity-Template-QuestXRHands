@@ -1,12 +1,14 @@
 # Unity-Template-QuestXRHands21
 
-A quickstart Unity 2021 project for Oculus Quest uging XR Interaction toolkit and hands detection
+A quickstart Unity 2022 project for Oculus Quest uging XR Interaction toolkit and hands detection
+
+For Unity 2021, use the Unity-2021 branch.
 
 ## Getting started
 
 ### Create your project
 
-* From the [Unity-Template-QuestXRHands21](https://github.com/prossel/Unity-Template-QuestXRHands21) GitHub repository click the *Use this template* button, then *Create a new repository* to create your own project
+* From the [Unity-Template-QuestXRHands](https://github.com/prossel/Unity-Template-QuestXRHands) GitHub repository click the *Use this template* button, then *Create a new repository* to create your own project
 * Configure your project
 * Clone your project locally (best) or download it as zip (but you will loose the link to your GitHub repository)
 
