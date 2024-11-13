@@ -1,7 +1,8 @@
 # Unity-Template-QuestXRHands
 
-A quickstart Unity 2022 project for Oculus Quest uging XR Interaction toolkit and hands detection
+A quickstart Unity 6 project for Meta Quest uging XR Interaction toolkit and XR Hands
 
+For Unity 2022, use the Unity-2022 branch.
 For Unity 2021, use the Unity-2021 branch.
 
 ## Getting started
@@ -39,11 +40,12 @@ For Unity 2021, use the Unity-2021 branch.
 * Select Android tab
 * Go down to *Package name* and edit according to the template
   com.HEADGeneve.YOUR_DEPARTMENT_YEAR.YOUR_NAME.DemoBomb
+* Example: com.HEADGeneve.MMD_2024.RosselPierre.DemoBomb
 
-## Build and run on Oculus Quest
+## Build and run on Meta Quest
 
 * Connect the headset
-* File > Build Settings
+* File > Build Profiles
 * Select Android, Switch Platform
 * Build and run
 * See Console for any errors
